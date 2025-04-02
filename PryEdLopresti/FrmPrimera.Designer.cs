@@ -47,6 +47,7 @@
             // 
             // menuStrip1
             // 
+            this.menuStrip1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.sistemaToolStripMenuItem,
             this.programacionOOToolStripMenuItem});
@@ -62,6 +63,7 @@
             this.datosDelDesarrolladorToolStripMenuItem,
             this.toolStripMenuItem1,
             this.salirToolStripMenuItem});
+            this.sistemaToolStripMenuItem.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(212)))), ((int)(((byte)(212)))));
             this.sistemaToolStripMenuItem.Name = "sistemaToolStripMenuItem";
             this.sistemaToolStripMenuItem.Size = new System.Drawing.Size(60, 20);
             this.sistemaToolStripMenuItem.Text = "Sistema";
@@ -96,6 +98,7 @@
             this.toolStripMenuItem3,
             this.materiasToolStripMenuItem,
             this.carerrasToolStripMenuItem});
+            this.programacionOOToolStripMenuItem.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(212)))), ((int)(((byte)(212)))));
             this.programacionOOToolStripMenuItem.Name = "programacionOOToolStripMenuItem";
             this.programacionOOToolStripMenuItem.Size = new System.Drawing.Size(118, 20);
             this.programacionOOToolStripMenuItem.Text = "Programacion O.O";
@@ -104,21 +107,21 @@
             // ciudadesToolStripMenuItem
             // 
             this.ciudadesToolStripMenuItem.Name = "ciudadesToolStripMenuItem";
-            this.ciudadesToolStripMenuItem.Size = new System.Drawing.Size(137, 22);
+            this.ciudadesToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.ciudadesToolStripMenuItem.Text = "Ciudades...";
             this.ciudadesToolStripMenuItem.Click += new System.EventHandler(this.ciudadesToolStripMenuItem_Click);
             // 
             // provinciasToolStripMenuItem
             // 
             this.provinciasToolStripMenuItem.Name = "provinciasToolStripMenuItem";
-            this.provinciasToolStripMenuItem.Size = new System.Drawing.Size(137, 22);
+            this.provinciasToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.provinciasToolStripMenuItem.Text = "Provincias...";
             this.provinciasToolStripMenuItem.Click += new System.EventHandler(this.provinciasToolStripMenuItem_Click);
             // 
             // toolStripMenuItem2
             // 
             this.toolStripMenuItem2.Name = "toolStripMenuItem2";
-            this.toolStripMenuItem2.Size = new System.Drawing.Size(134, 6);
+            this.toolStripMenuItem2.Size = new System.Drawing.Size(177, 6);
             // 
             // mesesToolStripMenuItem
             // 
@@ -137,7 +140,7 @@
             // toolStripMenuItem3
             // 
             this.toolStripMenuItem3.Name = "toolStripMenuItem3";
-            this.toolStripMenuItem3.Size = new System.Drawing.Size(134, 6);
+            this.toolStripMenuItem3.Size = new System.Drawing.Size(177, 6);
             // 
             // materiasToolStripMenuItem
             // 
@@ -149,13 +152,14 @@
             // carerrasToolStripMenuItem
             // 
             this.carerrasToolStripMenuItem.Name = "carerrasToolStripMenuItem";
-            this.carerrasToolStripMenuItem.Size = new System.Drawing.Size(137, 22);
+            this.carerrasToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.carerrasToolStripMenuItem.Text = "Carerras...";
             // 
             // FrmPrimera
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;

@@ -41,23 +41,26 @@
             // 
             // btnGrabarCiud
             // 
+            this.btnGrabarCiud.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
+            this.btnGrabarCiud.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.btnGrabarCiud.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnGrabarCiud.Location = new System.Drawing.Point(60, 90);
             this.btnGrabarCiud.Name = "btnGrabarCiud";
             this.btnGrabarCiud.Size = new System.Drawing.Size(75, 27);
             this.btnGrabarCiud.TabIndex = 0;
             this.btnGrabarCiud.Text = "Grabar";
-            this.btnGrabarCiud.UseVisualStyleBackColor = true;
+            this.btnGrabarCiud.UseVisualStyleBackColor = false;
             this.btnGrabarCiud.Click += new System.EventHandler(this.btnGrabarCiud_Click);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(212)))), ((int)(((byte)(212)))));
             this.label1.Location = new System.Drawing.Point(9, 16);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(54, 13);
             this.label1.TabIndex = 1;
             this.label1.Text = "Ciudades:";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // txtCiudades
             // 
@@ -69,6 +72,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(212)))), ((int)(((byte)(212)))));
             this.label2.Location = new System.Drawing.Point(12, 55);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(75, 13);
@@ -107,7 +111,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(272, 382);
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
+            this.ClientSize = new System.Drawing.Size(268, 382);
             this.Controls.Add(this.dgvCiudades);
             this.Controls.Add(this.txtCodigoPostal);
             this.Controls.Add(this.label2);
